@@ -1,7 +1,7 @@
 <template>
   <span class="flex column pa-15">
     <span class="flex column">
-      <h1>Ces Planques Favorites</h1>
+      <h1>Ses Planques Favorites</h1>
       <div class="divider"></div>
     </span>
     <span class="flex">

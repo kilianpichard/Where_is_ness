@@ -8,7 +8,7 @@
       <h1>Where is Ness ?</h1>
 
       <span class="nav">
-         <v-btn class="btn flat ma-1" color="back" elevation="0">Ces Planques</v-btn>
+         <v-btn class="btn flat ma-1" color="back" elevation="0">Ses Planques</v-btn>
          <v-btn class="btn ma-1" color="primary" elevation="0">Contact</v-btn>
       </span>
     </span>
