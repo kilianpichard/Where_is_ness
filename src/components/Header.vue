@@ -18,7 +18,7 @@
       </span>
       <span>
         <h1>OMG !!</h1>
-        <h1>Le chat de l'agence à disparu</h1>
+        <h1>Le chat de l'agence a disparu</h1>
         <p>Habituée à réclamer des câlins ou des croquettes auprès de
          ses humains préférés. Ce matin Ness le chat de l’agence été aux abonnés absents.
           Elle a sûrement passé la nuit dehors,mais toute l’équipe s’inquiète.</p>
