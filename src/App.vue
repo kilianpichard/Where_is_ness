@@ -2,7 +2,7 @@
   <v-app>
     <Header></Header>
     <Planques></Planques>
-   <Contact id="test"></Contact>
+    <Contact id="test"></Contact>
     <Footer></Footer>
   </v-app>
 </template>
@@ -31,38 +31,45 @@ export default {
 <style>
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;1,400&display=swap");
 
-*{
+* {
   font-family: 'Montserrat', sans-serif;
 }
-p{
+
+p {
   color: #8B8B8B;
 }
-h1{
+
+h1 {
   color: #000001;
 }
-.flex{
+
+.flex {
   display: flex;
   align-items: center;
   justify-content: space-around;
   width: 100vw;
 }
-.btn{
+
+.btn {
   border-radius: 100px;
   color: white !important;
   font-weight: 600;
   text-transform: none;
 }
-.divider{
+
+.divider {
   height: 4px;
   width: 5vw;
   background: #E0E1E2;
 }
-.flexC{
+
+.flexC {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
+
 .column {
   flex-direction: column;
 }

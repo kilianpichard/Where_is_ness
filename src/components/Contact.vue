@@ -41,7 +41,7 @@
 export default {
   name: "Contact",
   methods: {
-    sendForm(){
+    sendForm() {
       document.getElementById("hidden").style.display = 'block';
     }
   }
@@ -70,17 +70,20 @@ export default {
   color: #8B8B8B;
   height: 50px;
 }
-#hidden{
+
+#hidden {
   width: 80vw;
   border: 1px solid lightgray;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-#hidden>div>p{
+
+#hidden > div > p {
   font-style: italic;
   text-align: center !important;
 }
+
 select {
   appearance: auto;
 }

@@ -7,7 +7,7 @@
     <span class="flex">
       <span v-for="planque in items" :key="planque.title" class="item planque">
           <span v-if="planque.new" class="new">
-             <v-img src="@/assets/picto-new.svg" contain></v-img>
+             <v-img contain src="@/assets/picto-new.svg"></v-img>
           </span>
           <div class="img">
              <v-img :src="getImgUrl(planque.icon)" contain></v-img>
@@ -65,16 +65,20 @@ export default {
   flex-direction: column;
   position: relative;
 }
-.img{
+
+.img {
   width: 150px;
 }
-h2{
+
+h2 {
   font-weight: normal;
 }
-p{
+
+p {
   width: 300px;
 }
-.new{
+
+.new {
   position: absolute;
   top: 0;
   right: 50px;

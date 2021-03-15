@@ -3,11 +3,13 @@
       class="appBar"
       color="back"
       flat>
+
     <span class="flex header">
       <h1>Where is Ness ?</h1>
+
       <span class="nav">
          <v-btn class="btn flat ma-1" color="back" elevation="0">Ces Planques</v-btn>
-         <v-btn class="btn ma-1" color="primary" elevation="0" to="#test">Contact</v-btn>
+         <v-btn class="btn ma-1" color="primary" elevation="0">Contact</v-btn>
       </span>
     </span>
     <span class="explications flex mt-4 mb-16">
@@ -28,14 +30,14 @@
 </template>
 
 <script>
-
 export default {
-name: "header"
+
+  name: "header",
 }
 </script>
 
 <style scoped>
-.appBar{
+.appBar {
   padding: 20px;
   background: #F6F7F8 !important;
   display: flex;
@@ -43,17 +45,20 @@ name: "header"
   justify-content: center;
   align-items: center;
 }
-.flat{
-  color:#8B8B8B !important;
+
+.flat {
+  color: #8B8B8B !important;
 }
 
-.explications{
+.explications {
   justify-content: center;
 }
-p{
+
+p {
   max-width: 400px;
 }
-.header{
+
+.header {
   max-width: 80vw;
 }
 </style>

@@ -12,7 +12,7 @@ export default {
 </script>
 
 <style scoped>
-.footer{
+.footer {
   background: #000001;
   color: white;
   height: 150px;
@@ -21,7 +21,8 @@ export default {
   justify-content: space-between;
   padding: 50px;
 }
-p{
-  color:white !important;
+
+p {
+  color: white !important;
 }
 </style>
