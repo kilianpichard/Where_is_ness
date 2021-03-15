@@ -6,11 +6,14 @@
     </span>
     <span class="flex">
       <span v-for="planque in items" :key="planque.title" class="item planque">
+          <span v-if="planque.new" class="new">
+             <v-img src="@/assets/picto-new.svg" contain></v-img>
+          </span>
           <div class="img">
              <v-img :src="getImgUrl(planque.icon)" contain></v-img>
           </div>
 
-            <h1 class="ma-3">{{ planque.title }}</h1>
+            <h2 class="ma-3">{{ planque.title }}</h2>
             <p>{{ planque.desc }}</p>
             <v-btn class="btn ma-5" color="secondary" elevation="0">En savoir +</v-btn>
         </span>
@@ -51,14 +54,8 @@ export default {
 </script>
 
 <style scoped>
-.column {
-  flex-direction: column;
-}
-
-
 .item {
   max-width: 20vw;
-
 }
 
 .planque {
@@ -66,14 +63,21 @@ export default {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  position: relative;
 }
 .img{
   width: 150px;
 }
-h1{
+h2{
   font-weight: normal;
 }
 p{
   width: 300px;
+}
+.new{
+  position: absolute;
+  top: 0;
+  right: 50px;
+  z-index: 1;
 }
 </style>

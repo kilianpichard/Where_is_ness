@@ -2,19 +2,25 @@
   <v-app>
     <Header></Header>
     <Planques></Planques>
+   <Contact id="test"></Contact>
+    <Footer></Footer>
   </v-app>
 </template>
 
 <script>
 import Header from "./components/Header";
 import Planques from "./components/Planques";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 export default {
   name: 'App',
 
   components: {
+    Footer,
     Header,
-    Planques
+    Planques,
+    Contact
   },
 
   data: () => ({
@@ -49,7 +55,7 @@ h1{
 .divider{
   height: 4px;
   width: 5vw;
-  background: #F0F1F2;
+  background: #E0E1E2;
 }
 .flexC{
   display: flex;
@@ -57,4 +63,8 @@ h1{
   align-items: center;
   justify-content: center;
 }
+.column {
+  flex-direction: column;
+}
+
 </style>
