@@ -6,12 +6,12 @@
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Go to website
 
 ```
 npm run serve
 ```
-
+Adress : localhost:8080
 ### Compiles and minifies for production
 
 ```
