@@ -11,7 +11,7 @@ npm install
 ```
 npm run serve
 ```
-Adress : localhost:8080
+Address : localhost:8080
 ### Compiles and minifies for production
 
 ```
