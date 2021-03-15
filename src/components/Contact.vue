@@ -5,7 +5,7 @@
       <p class="ma-5">Merci de nous contacter</p>
       <div class="divider"></div>
     </span>
-    <span class="form ma-5">
+    <span class="form ma-5" id="form">
       <span>
       <input
           class="field"
@@ -28,7 +28,7 @@
       </span>
          <v-btn class="btn ma-5" color="primary" elevation="0" @click="sendForm()">Envoyer</v-btn>
     </span>
-    <span id="hidden" style="display: none">
+    <span id="hidden" class="ma-5" style="display: none">
       <div class="ma-16">
         <p>Votre message a bien été envoyé</p>
         <p>merci de votre aide</p>
@@ -43,6 +43,7 @@ export default {
   methods: {
     sendForm() {
       document.getElementById("hidden").style.display = 'block';
+      document.getElementById("form").style.display = 'none';
     }
   }
 }
